@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+* {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-image: url(/Learning/images/Mask\ Group\ 38.png);
+    background-size: contain;
+    /* background-color: rgb(235, 233, 233); */
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    justify-content: center;
+}
+.btn {
+    border-radius: 24px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+.nav-link {
+    margin: 0rem 1rem;
+    color: #9080f8;
+}
+.navbar-brand img {
+margin: 0em 2rem 0em 3rem;
+}
+.container {
+    width: auto;
+    display: flex;
+    margin-top: 11rem;
+    flex-direction: row;
+    justify-content: center;
+}
+.box-2 {
+    text-align: center;
+    margin: 0em 2em;
+}
+.box-2 p {
+    font-size: 10px;
+}
+.gint {
+    width: 8em;
+    background-color: #9080f8;
+    font-size: 13px;
+    border: none;
+    border-radius: 22px;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    padding: 3px;
+}
+.osk {
+    border: 1px solid lightcoral;
+    width: 8em;
+    font-size: 13px;
+    text-align: center;
+    font-weight: normal;
+    border-radius: 22px;
+    padding: 3px;
+}
+.container-1 {
+    display: flex;
+    justify-content: center;
+    /* background: transparent; */
+}
+.box-4 img {
+    width: 6.5rem;
+    height: 6.5rem;
+}
+.box-4 {
+    display: flex;
+    align-items: center;
+}
+.container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10rem;
+    align-content: center;
+    width: 100%;
+    padding: 0rem 4rem 0rem 9rem;
+}
+.box-5 {
+    justify-content: center;
+}
+.box-5 p {
+    font-size: 16px;
+    font-weight: 500;
+}
+/* .box-6 {
+    
+} */
+.container-3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(/Learning/images/Group\ 6926.png);
+    background-repeat: no-repeat;
+    width: 80rem;
+    height: 12rem;
+    color: white;
+    margin: 0 auto;
+    margin-top: 10rem;
+    padding: 0rem 15rem 0rem 4rem;
+}
+.box-7 {
+    height: 18rem;
+}
+.box-7 img {
+    width: 20rem;
+    height: 17rem;
+}
+.abus {
+    background-color: #9080f8;
+    text-align: center;
+    width: 8rem;
+    height: 2rem;
+    color: white;
+    border-radius: 22px;
+}
+.ctus {
+    background-color: white;
+    text-align: center;
+    width: 8rem;
+    height: 2rem;
+    color: black;
+    border-radius: 22px;
+    border: 2px solid #9080f8;
+}
+.serv {
+    background-color: white;
+    text-align: center;
+    width: 8rem;
+    height: 2rem;
+    color: #9080f8;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+.service {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.webser {
+    background-image: url(/Learning/images/Rectangle\ 1275.png);
+    color: white;
+    width: 37.5rem;
+    position: relative;
+    left: 1.5rem;
+    top: 20.2rem;
+    padding-left: 1rem;
+    border-radius: 15px;
+}
+.serpic {
+    background-image: url(/Learning/images/shutterstock_696061426\ \(1\).png);
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: 80rem;
+}
+.container-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 6rem;
+    align-items: top;
+}
+.srmain {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.srmain img {
+    display: flex;
+    margin-right: 11rem;
+    margin-top: 4rem;
+}
+.srmain p {
+    margin: 2rem 0rem 0rem 0rem;
+    color: #9080f8;
+    font-size: 13px;
+}
+
+@media screen  and (max-width:1200px){
+    .container {
+        width: 100%;
+        flex-direction: row;
+        display: flex;
+    }
+    .box-4 {
+        display: flex;
+        align-items: center;
+    }
+}
+@media (max-width:1024px){
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-content: center;
+    }
+    html {
+        font-size: 50%;
+    }
+    .box-1 img {
+        width: 29rem;
+        height: 29rem;
+    }
+    .box-3 img {
+        width: 29rem;
+        height: 29rem;
+    }
+    .box-4 img {
+        width: 7rem;
+        height: 7rem;
+    }
+    .navbar-brand img {
+        width: 14rem;
+        height: 4.3rem;
+        margin: 0em 1.5em 0em 2em;
+    }
+    .box-2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen  and (max-width:768px){
+    .container {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .box-1 img {
+        width: 150px;
+        height: 150px;
+        display: none;
+    }
+    .box-2 {
+        margin: 3rem;
+    }
+    .box-2 h1 {
+        font-size: 18px;
+    }
+    .box-2 p {
+        font-size: 10px;
+    }
+    .box-2 button {
+        width: 7rem;
+        font-size: 5px;
+        padding: 0.5rem;
+    }
+    .box-3 img {
+        width: 150px;
+        height: 150px;
+        display: none;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    html {
+        font-size: 50%;
+    }
+    .box-4 img {
+        width: 3.3rem;
+        height: 3.3rem;
+    }
+}
+@media (max-width:668px){
+        
+        .box-1{
+            display: none;
+        }
+        html{
+            font-size: 24%;
+        }
+        .box-3{
+            display: none;
+        }
+        .navbar-brand {
+            display: none;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="header">
+    <div class="main">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- <a class="navbar-brand" href="#"><img src="/Learning/images/Asset 1.png" alt="" width="120px" height="50px"></a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-lg-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="navbar-brand" href="#"><img src="/Learning/images/Asset 1.png" alt="" width="170px" height="50px"></a>
+                </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><button type="button" class="btn btn-primary btn-sm">Build Your Project</button></a>
+                  </li>
+              </ul>
+              
+            </div>
+          </nav>
+    </div>
+
+    <div class="container">
+        <div class="box-1">
+    <img src="/Learning/images/Group 5602.png" alt="">
+        </div>
+        <div class="box-2">
+    <h1>Step Towards</h1>
+    <h1 style="color: rgb(123, 23, 216);">Digitalization</h1>
+    <p>Share your Ideas with us and we will turn them <br>
+        into reality with the best solution possible.
+    </p>
+    <button class="gint">Get in Touch</button>
+    <button class="osk">Our Skill</button>
+        </div>
+        <div class="box-3">
+    <img src="/Learning/images/Group 5442.png" alt="">
+        </div>
+    </div>
+    
+    <div class="container-1">
+        <div class="box-4">
+            <img src="/Learning/images/Component 1 – 1.png" alt="">
+        </div>
+    </div>
+    
+    <div class="container-2">
+    <div class="box-5">
+    <h2>Set Up Your Own</h2>
+    <h2 style="color: #9080f8">Development Team</h2>
+    <p>At Tech2day - It is time to start development, scale your team,<br> 
+        and tap into the expertise with ease. We assemble a <br>
+        cedicated team of developers and fully integrate a in house <br>
+        development & creative services.
+    </p>
+    <button class="abus">About us</button>
+    </div>
+    <div class="box-6">
+    <img src="/Learning/images/setupown.png" alt="">
+    </div>
+    </div>
+    
+    <div class="container-3">
+        <div class="box-7">
+        <img src="/Learning/images/Group 6895.png" alt="">
+        </div>
+        <div class="box-8">
+        <p>Have a glimps at our development<br>
+                model and strategy
+        </p>
+        <button class="ctus">Contact us</button>
+        </div>
+    </div>
+    <div class="service"><button class="serv">Services</button></div>
+
+    <div class="container-4">
+
+        <div class="serpic">
+            
+            <div class="webser">
+                <p>Services</p>
+                <h2>Website</h2>
+                <p>It is time to start development, scale your team,<br>
+                    and tap into the new expertise with ease.
+                </p>
+            </div>
+        </div>
+
+        <div class="srmain">
+            <div class="sr1">
+                <img src="/Learning/images/website.png" alt="">
+                <p>Website</p>
+            </div>
+            <div class="sr2">
+                <img src="/Learning/images/mobileapp.png" alt="">
+                <p>Mobile Application</p>
+            </div>
+            <div class="sr3">
+                <img src="/Learning/images/softwareinte.png" alt="">
+                <p>Software Integration</p>
+            </div>
+            <div class="sr4">
+                <img src="/Learning/images/customsoft.png" alt="">
+                <p>Custom Software</p>
+            </div>
+            <div class="sr5">
+                <img src="/Learning/images/corporatebrand.png" alt="">
+                <p>Corporate Branding</p>
+            </div>
+            <div class="sr6">
+                <img src="/Learning/images/uiux.png" alt="">
+                <p>UI/UX Design</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
